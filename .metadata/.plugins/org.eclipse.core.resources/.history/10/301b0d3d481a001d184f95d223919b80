@@ -25,7 +25,7 @@ public class Inferencia {
 		System.out.println(e);
 		// Ao utilizar o var, deve-se declarar e inicializar na mesma linha
 		
-		//var f = 12; // inteiro
+		var f = 12; // inteiro
 		// f = 12.01; 
 		
 		/*
