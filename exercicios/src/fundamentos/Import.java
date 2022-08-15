@@ -1,0 +1,25 @@
+package fundamentos;
+
+import java.util.Date;
+
+// O "import" fica fora da classe, assim como o pacote (package).
+
+public class Import {
+
+	public static void main(String[] args) {
+		java.lang.String b = "Boa tarde!";
+		java.lang.System.out.println(b);
+		
+		String s = "Bom dia!";
+		System.out.println(s);
+		
+		Date d = new Date();
+		System.out.println(d);
+		
+//		JButton botao = new JButton();
+		
+		// Como o botão foi comentado, apareceu a advertência de uso indevido do import
+		// Ctrl + Shift + O >>> organiza os imports, tirando ou adicionando o que for necessário
+		// No caso, apagou o import do JButton
+	}
+}
